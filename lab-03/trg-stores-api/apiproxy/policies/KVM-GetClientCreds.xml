@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<KeyValueMapOperations async="false" continueOnError="false" enabled="true" name="KVM-GetClientCreds" mapIdentifier="baas">
+    <DisplayName>KVM-GetClientCreds</DisplayName>
+    <Get assignTo="private.baas_clientId" index="1">
+        <Key>
+            <Parameter>clientId</Parameter>
+        </Key>
+    </Get>
+    <Get assignTo="private.baas_clientSecret" index="1">
+        <Key>
+            <Parameter>clientSecret</Parameter>
+        </Key>
+    </Get>
+    <Scope>environment</Scope>
+</KeyValueMapOperations>

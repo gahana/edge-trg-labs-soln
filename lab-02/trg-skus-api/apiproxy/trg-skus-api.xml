@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="trg-skus-api">
+    <Basepaths>/inventory/v1/skus</Basepaths>
+    <Basepaths>/inventory/v1/skus</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1502636108507</CreatedAt>
+    <CreatedBy>ssudhindra@google.com</CreatedBy>
+    <Description>Store Location Details</Description>
+    <DisplayName>trg-skus-api</DisplayName>
+    <LastModifiedAt>1502636108507</LastModifiedAt>
+    <LastModifiedBy>ssudhindra@google.com</LastModifiedBy>
+    <Policies>
+        <Policy>Verify-API-Key-1</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
